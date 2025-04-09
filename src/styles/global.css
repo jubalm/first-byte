@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-foreground: var(--color-foreground);
+  --color-background: var(--color-background);
+  --color-primary: var(--color-primary);
+  --color-accent: var(--color-accent);
+}
+
+@layer theme {
+  :root {
+    --color-foreground: oklch(0.25 0 0);
+    --color-background: oklch(0.95 0 0);
+    --color-primary: oklch(0.56 0.25 297.59);
+    --color-accent: oklch(0.63 0.24 358.72);
+  }
+
+  .dark {
+    --color-foreground: oklch(0.75 0 0);
+    --color-background: oklch(0.25 0 0);
+    --color-primary: oklch(0.73 0.17 302.7);
+    --color-accent: oklch(0.9 0.2 0.1);
+  }
+}
