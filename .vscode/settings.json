@@ -1,5 +1,41 @@
 {
-	"files.associations": {
-		"wrangler.json": "jsonc"
-	}
+  // Project-specific file associations
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  },
+
+  // Code actions specific to this project
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  // Default formatter settings for different file types
+  "editor.defaultFormatter": null,
+  "files.eol": "\n",
+
+  // GitHub Copilot settings
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+
+  // Language-specific formatter settings
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }
